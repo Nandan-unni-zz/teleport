@@ -1,0 +1,34 @@
+{
+  "CG": {
+    "desc": "Latha - Computer Graphics",
+    "link": "https://classroom.google.com/u/1/c/MTI2NDUzNzAwMzIx"
+  },
+  "AMM": {
+    "desc": "Lima - Advanced Microprocessors and Microcontrollers",
+    "link": "https://classroom.google.com/u/1/c/Mzc3NTQ0ODU1NTY0"
+  },
+  "NSM": {
+    "desc": "Ramachandran - Numerical and Statistical Methods",
+    "link": "https://classroom.google.com/u/1/c/Mzc2NzY1NTgzMTU4"
+  },
+  "OOSE": {
+    "desc": "Sudheep/Arun - Object Oriented Software Engineering",
+    "link": "https://classroom.google.com/u/1/c/Mzc5MDgzNjQzNjc4"
+  },
+  "SP": {
+    "desc": "Manjusha - System Programming",
+    "link": "https://classroom.google.com/u/1/c/Mzc5NzY0MzI5NzA2"
+  },
+  "ML": {
+    "desc": "Preetha - Machine Learning",
+    "link": "https://classroom.google.com/u/1/c/Mzc5MTcyMTYyNDg2"
+  },
+  "CG LAB": {
+    "desc": "Mahima - Computer Graphics Lab",
+    "link": "https://classroom.google.com/u/1/c/Mzc5NTE0ODk2Nzcz"
+  },
+  "MP LAB": {
+    "desc": "Sheena - Microprocessors Lab",
+    "link": "https://classroom.google.com/u/1/c/Mzc5MzE1OTk5NDQy"
+  }
+}

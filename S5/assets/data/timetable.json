@@ -1,0 +1,112 @@
+{
+  "Monday": [
+    {
+      "sub": "CG",
+      "desc": "Latha - Computer Graphics",
+      "link": "http://meet.google.com/eho-vyia-xyx?authuser=1"
+    },
+    {
+      "sub": "AMM",
+      "desc": "Lima - Advanced Microprocessors and Microcontrollers",
+      "link": "https://meet.google.com/qki-pysh-vyn?authuser=1"
+    },
+    {
+      "sub": "FREE",
+      "desc": "Free",
+      "link": "https://open.spotify.com/search"
+    },
+    {
+      "sub": "FREE",
+      "desc": "Free",
+      "link": "https://open.spotify.com/search"
+    }
+  ],
+  "Tuesday": [
+    {
+      "sub": "NSM",
+      "desc": "Ramachandran - Numerical and Statistical Methods",
+      "link": "https://meet.google.com/ski-epya-yaw?authuser=1"
+    },
+    {
+      "sub": "OOSE",
+      "desc": "Sudheep/Arun - Object Oriented Software Engineering",
+      "link": "https://meet.google.com/wgb-tkmp-zcz?authuser=1"
+    },
+    {
+      "sub": "SP",
+      "desc": "Manjusha - System Programming",
+      "link": "https://meet.google.com/ebe-imzz-ngy?authuser=1"
+    },
+    {
+      "sub": "FREE",
+      "desc": "Free",
+      "link": "https://open.spotify.com/search"
+    }
+  ],
+  "Wednesday": [
+    {
+      "sub": "ML",
+      "desc": "Preetha - Machine Learning",
+      "link": "https://meet.google.com/zyt-fiog-qop?authuser=1"
+    },
+    {
+      "sub": "NSM",
+      "desc": "Ramachandran - Numerical and Statistical Methods",
+      "link": "https://meet.google.com/ski-epya-yaw?authuser=1"
+    },
+    {
+      "sub": "MP LAB",
+      "desc": "Sheena - Microprocessors Lab",
+      "link": "https://meet.google.com/hzy-wrkx-fef?authuser=1"
+    },
+    {
+      "sub": "MP LAB",
+      "desc": "Sheena - Microprocessors Lab",
+      "link": "https://meet.google.com/hzy-wrkx-fef?authuser=1"
+    }
+  ],
+  "Thursday": [
+    {
+      "sub": "SP",
+      "desc": "Manjusha - System Programming",
+      "link": "https://meet.google.com/ebe-imzz-ngy?authuser=1"
+    },
+    {
+      "sub": "OOSE",
+      "desc": "Sudheep/Arun - Object Oriented Software Engineering",
+      "link": "https://meet.google.com/wgb-tkmp-zcz?authuser=1"
+    },
+    {
+      "sub": "CG LAB",
+      "desc": "Mahima - Computer Graphics Lab",
+      "link": "https://meet.google.com/cvd-skvi-wqc?authuser=1"
+    },
+    {
+      "sub": "CG LAB",
+      "desc": "Mahima - Computer Graphics Lab",
+      "link": "https://meet.google.com/cvd-skvi-wqc?authuser=1"
+    }
+  ],
+  "Friday": [
+    {
+      "sub": "ML",
+      "desc": "Preetha - Machine Learning",
+      "link": "https://meet.google.com/zyt-fiog-qop?authuser=1"
+    },
+    {
+      "sub": "AMM",
+      "desc": "Lima - Advanced Microprocessors and Microcontrollers",
+      "link": "https://meet.google.com/qki-pysh-vyn?authuser=1"
+    },
+    {
+      "sub": "CG",
+      "desc": "Latha - Computer Graphics",
+      "link": "http://meet.google.com/eho-vyia-xyx?authuser=1"
+    },
+    {
+      "sub": "FREE",
+      "desc": "Free",
+      "link": "https://open.spotify.com/search"
+    }
+  ]
+}

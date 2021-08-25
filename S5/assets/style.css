@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: whitesmoke;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+body {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+#classrooms {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: #1e1e1e;
+  padding: 0;
+  margin-bottom: 50px;
+}
+#classrooms .nav {
+  min-height: 60px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e1e1e;
+  transition: all ease-in-out 0.2s;
+  border-bottom: 2px solid #1e1e1e;
+}
+#classrooms .nav abbr {
+  background-color: #1e1e1e;
+  transition: all ease-in-out 0.2s;
+}
+#classrooms .nav:hover {
+  border-bottom: 2px solid dodgerblue;
+}
+#classrooms .nav:hover abbr {
+  color: dodgerblue;
+  font-weight: 600;
+}
+
+#timetable {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#timetable .day {
+  display: flex;
+  flex-direction: column;
+  background-color: #414141;
+  margin: 10px 65px;
+}
+#timetable .day .block {
+  padding: 10px 40px;
+  min-width: 220px;
+  text-align: center;
+}
+#timetable .day p {
+  color: dodgerblue;
+  border-bottom: 3px solid #414141;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#timetable .day a {
+  border-bottom: 1px solid #414141;
+}
+#timetable .day a abbr {
+  font-size: 16px;
+  color: #cccccc;
+  transition: all ease-in-out 0.2s;
+}
+#timetable .day a:hover abbr {
+  color: white;
+  font-weight: 600;
+}
+footer.copy {
+  text-align: center;
+  position: absolute;
+  margin: 10px 0;
+  color: #555555;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+@media only screen and (max-width: 750px) {
+  #classrooms .nav {
+    padding: 0 25px;
+  }
+  #classrooms .nav abbr {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #classrooms {
+    margin-bottom: 10px;
+  }
+  #classrooms .nav {
+    padding: 0 20px;
+  }
+  #timetable .day {
+    margin: 30px 50px;
+  }
+  #timetable .day .block {
+    min-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #classrooms .nav {
+    padding: 0 15px;
+  }
+  #classrooms .nav abbr {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #classrooms .nav {
+    padding: 0 13px;
+  }
+  #classrooms .nav abbr {
+    font-size: 11px;
+  }
+}
