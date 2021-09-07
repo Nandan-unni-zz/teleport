@@ -3,7 +3,8 @@
     "ML": "https://meet.google.com/lookup/fs3a4mo44s?authuser=1",
     "SP": "https://meet.google.com/lookup/dv7gblap2z?authuser=1",
     "CG": "http://meet.google.com/eho-vyia-xyx?authuser=1",
-    "OOSE": "https://meet.google.com/lookup/eb5qq5r4pz?authuser=1",
+    "OOSE-Arun": "https://meet.google.com/lookup/eb5qq5r4pz?authuser=1",
+    "OOSE-Sudheep": "https://meet.google.com/wgb-tkmp-zcz?authuser=1",
     "NSM": "https://meet.google.com/lookup/gk2zsn37z3?authuser=1",
     "AMM": "https://meet.google.com/lookup/grefzstizs?authuser=1",
     "CG LAB": "https://meet.google.com/lookup/hxibginpcr?authuser=1",
@@ -24,7 +25,8 @@
     "ML": "Preetha - Machine Learning",
     "SP": "Manjusha - System Programming",
     "CG": "Latha - Computer Graphics",
-    "OOSE": "Sudheep/Arun - Object Oriented Software Engineering",
+    "OOSE-Arun": "Arun - Object Oriented Software Engineering",
+    "OOSE-Sudheep": "Sudheep - Object Oriented Software Engineering",
     "NSM": "Ramachandran - Numerical and Statistical Methods",
     "AMM": "Lima - Advanced Microprocessors and Microcontrollers",
     "CG LAB": "Mahima - Computer Graphics Lab",
@@ -33,9 +35,9 @@
   },
   "timetable": {
     "Monday": ["CG", "AMM", "FREE", "FREE"],
-    "Tuesday": ["NSM", "OOSE", "SP", "FREE"],
+    "Tuesday": ["NSM", "OOSE-Sudheep", "SP", "FREE"],
     "Wednesday": ["ML", "NSM", "MP LAB", "MP LAB"],
-    "Thursday": ["SP", "OOSE", "CG LAB", "CG LAB"],
+    "Thursday": ["SP", "OOSE-Arun", "CG LAB", "CG LAB"],
     "Friday": ["ML", "AMM", "CG", "FREE"]
   }
 }
