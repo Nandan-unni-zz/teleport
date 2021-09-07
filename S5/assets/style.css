@@ -20,7 +20,6 @@ body {
   flex-direction: row;
   background-color: #1e1e1e;
   padding: 0;
-  margin-bottom: 50px;
 }
 #classrooms .nav {
   min-height: 60px;
@@ -42,6 +41,24 @@ body {
 #classrooms .nav:hover abbr {
   color: dodgerblue;
   font-weight: 600;
+}
+
+.timeContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+time#time {
+  padding: 10px 15px;
+  background-color: #1e1e1e;
+  border-radius: 5px;
+}
+time#time span {
+  color: dodgerblue;
+  background-color: #1e1e1e;
 }
 
 #timetable {
@@ -77,9 +94,18 @@ body {
   color: #cccccc;
   transition: all ease-in-out 0.2s;
 }
+#timetable .day a abbr.activeSub {
+  color: tomato;
+  font-weight: 600;
+  text-shadow: 1px 1px 10px rgb(200, 0, 0);
+}
 #timetable .day a:hover abbr {
   color: white;
   font-weight: 600;
+}
+#timetable .day a:hover abbr.activeSub {
+  color: tomato;
+  font-weight: 900;
 }
 footer.copy {
   text-align: center;
@@ -100,8 +126,9 @@ footer.copy {
   }
 }
 @media only screen and (max-width: 650px) {
-  #classrooms {
-    margin-bottom: 10px;
+  .timeContainer {
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
   #classrooms .nav {
     padding: 0 20px;
