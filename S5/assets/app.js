@@ -5,7 +5,7 @@ const isCurrentPeriod = (subIndex) => {
   const min = time.getMinutes();
   // 9:00 to 10: 30 : 0
   if (
-    hour >= 9 &&
+    hour >= 8 &&
     (hour < 10 || (hour === 10 && min <= 30)) &&
     subIndex === 0
   ) {
