@@ -71,6 +71,9 @@ const loadDataToHTML = async (semester) => {
     await fetch(`/teleport/static/data/${semester}_timetable.json`)
   ).json();
 
+  document.getElementById("syllabus").onclick = () =>
+    window.open(data?.syllabus);
+
   document.getElementById("classrooms").innerHTML = Object.keys(
     data?.classroomLinks
   )
