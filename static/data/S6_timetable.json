@@ -1,0 +1,43 @@
+{
+  "meetLinks": {
+    "ML": "https://meet.google.com/lookup/fs3a4mo44s?authuser=1",
+    "SP": "https://meet.google.com/lookup/dv7gblap2z?authuser=1",
+    "CG": "http://meet.google.com/eho-vyia-xyx?authuser=1",
+    "OOSE-Arun": "https://meet.google.com/lookup/eb5qq5r4pz?authuser=1",
+    "OOSE-Sudheep": "https://meet.google.com/qmi-vpsz-xns?authuser=1",
+    "NSM": "https://meet.google.com/lookup/gk2zsn37z3?authuser=1",
+    "AMM": "https://meet.google.com/lookup/grefzstizs?authuser=1",
+    "CG LAB": "https://meet.google.com/lookup/hxibginpcr?authuser=1",
+    "MP LAB": "https://meet.google.com/lookup/fwbd3nrxvl?authuser=1",
+    "FREE": "https://open.spotify.com/search"
+  },
+  "classroomLinks": {
+    "ML": "https://classroom.google.com/u/1/c/Mzc5MTcyMTYyNDg2",
+    "SP": "https://classroom.google.com/u/1/c/Mzc5NzY0MzI5NzA2",
+    "CG": "https://classroom.google.com/u/1/c/MTI2NDUzNzAwMzIx",
+    "OOSE": "https://classroom.google.com/u/1/c/Mzc5MDgzNjQzNjc4",
+    "NSM": "https://classroom.google.com/u/1/c/Mzc2NzY1NTgzMTU4",
+    "AMM": "https://classroom.google.com/u/1/c/Mzc3NTQ0ODU1NTY0",
+    "CG LAB": "https://classroom.google.com/u/1/c/Mzc5NTE0ODk2Nzcz",
+    "MP LAB": "https://classroom.google.com/u/1/c/Mzc5MzE1OTk5NDQy"
+  },
+  "desc": {
+    "ML": "Preetha - Machine Learning",
+    "SP": "Manjusha - System Programming",
+    "CG": "Latha - Computer Graphics",
+    "OOSE-Arun": "Arun - Object Oriented Software Engineering",
+    "OOSE-Sudheep": "Sudheep - Object Oriented Software Engineering",
+    "NSM": "Ramachandran - Numerical and Statistical Methods",
+    "AMM": "Lima - Advanced Microprocessors and Microcontrollers",
+    "CG LAB": "Mahima - Computer Graphics Lab",
+    "MP LAB": "Sheena - Microprocessors Lab",
+    "FREE": "Free"
+  },
+  "timetable": {
+    "Monday": ["CG", "AMM", "FREE", "FREE"],
+    "Tuesday": ["NSM", "OOSE-Sudheep", "SP", "FREE"],
+    "Wednesday": ["ML", "NSM", "MP LAB", "MP LAB"],
+    "Thursday": ["SP", "OOSE-Arun", "CG LAB", "CG LAB"],
+    "Friday": ["ML", "AMM", "CG", "FREE"]
+  }
+}

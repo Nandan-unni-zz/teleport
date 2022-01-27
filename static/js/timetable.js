@@ -66,8 +66,10 @@ const subjectBlock = (data, day, dayIndex) => `
   </section>
 `;
 
-const loadDataToHTML = async () => {
-  const data = await (await fetch("assets/data.json")).json();
+const loadDataToHTML = async (semester) => {
+  const data = await (
+    await fetch(`/static/data/${semester}_timetable.json`)
+  ).json();
 
   document.getElementById("classrooms").innerHTML = Object.keys(
     data?.classroomLinks
@@ -103,5 +105,3 @@ const loadDataToHTML = async () => {
   }`;
   document.getElementById("time").innerHTML = timeStr;
 };
-
-loadDataToHTML();
