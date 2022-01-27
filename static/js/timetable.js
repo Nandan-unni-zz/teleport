@@ -68,7 +68,7 @@ const subjectBlock = (data, day, dayIndex) => `
 
 const loadDataToHTML = async (semester) => {
   const data = await (
-    await fetch(`/static/data/${semester}_timetable.json`)
+    await fetch(`/teleport/static/data/${semester}_timetable.json`)
   ).json();
 
   document.getElementById("classrooms").innerHTML = Object.keys(
