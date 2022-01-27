@@ -1,43 +1,42 @@
 {
   "meetLinks": {
-    "ML": "https://meet.google.com/lookup/fs3a4mo44s?authuser=1",
-    "SP": "https://meet.google.com/lookup/dv7gblap2z?authuser=1",
-    "CG": "http://meet.google.com/eho-vyia-xyx?authuser=1",
-    "OOSE-Arun": "https://meet.google.com/lookup/eb5qq5r4pz?authuser=1",
-    "OOSE-Sudheep": "https://meet.google.com/qmi-vpsz-xns?authuser=1",
-    "NSM": "https://meet.google.com/lookup/gk2zsn37z3?authuser=1",
-    "AMM": "https://meet.google.com/lookup/grefzstizs?authuser=1",
-    "CG LAB": "https://meet.google.com/lookup/hxibginpcr?authuser=1",
-    "MP LAB": "https://meet.google.com/lookup/fwbd3nrxvl?authuser=1",
+    "CN": "https://meet.google.com/txc-gvyo-ixp",
+    "CC": "",
+    "ADA": "https://meet.google.com/udt-abha-bga",
+    "DM": "",
+    "OS": "https://meet.google.com/xcg-wbzp-fhy",
+    "NNDL": "",
+    "OS LAB": "https://meet.google.com/mhu-gepw-tux",
+    "Mini Project": "",
     "FREE": "https://open.spotify.com/search"
   },
   "classroomLinks": {
-    "ML": "https://classroom.google.com/u/1/c/Mzc5MTcyMTYyNDg2",
-    "SP": "https://classroom.google.com/u/1/c/Mzc5NzY0MzI5NzA2",
-    "CG": "https://classroom.google.com/u/1/c/MTI2NDUzNzAwMzIx",
-    "OOSE": "https://classroom.google.com/u/1/c/Mzc5MDgzNjQzNjc4",
-    "NSM": "https://classroom.google.com/u/1/c/Mzc2NzY1NTgzMTU4",
-    "AMM": "https://classroom.google.com/u/1/c/Mzc3NTQ0ODU1NTY0",
-    "CG LAB": "https://classroom.google.com/u/1/c/Mzc5NTE0ODk2Nzcz",
-    "MP LAB": "https://classroom.google.com/u/1/c/Mzc5MzE1OTk5NDQy"
+    "CN": "https://classroom.google.com/u/1/c/NDYyODk4NTkzMDY3",
+    "CC": "",
+    "ADA": "https://classroom.google.com/u/1/c/NDU3OTc2MDE5MTY5",
+    "DM": "",
+    "OS": "https://classroom.google.com/u/1/c/NDYyOTM1NzExNjAz",
+    "NNDL": "",
+    "OS LAB": "https://classroom.google.com/u/1/c/NDU4NTM0ODc3MDM4",
+    "Mini Project": "https://classroom.google.com/u/1/c/NDYyOTMxODY5ODMz"
   },
   "desc": {
-    "ML": "Preetha - Machine Learning",
-    "SP": "Manjusha - System Programming",
-    "CG": "Latha - Computer Graphics",
-    "OOSE-Arun": "Arun - Object Oriented Software Engineering",
-    "OOSE-Sudheep": "Sudheep - Object Oriented Software Engineering",
-    "NSM": "Ramachandran - Numerical and Statistical Methods",
-    "AMM": "Lima - Advanced Microprocessors and Microcontrollers",
-    "CG LAB": "Mahima - Computer Graphics Lab",
-    "MP LAB": "Sheena - Microprocessors Lab",
+    "CN": "Preetha - Computer Networks",
+    "CC": "Sheena - Compiler Construction",
+    "ADA": "Remyamol - Analysis and Design of Algorithms",
+    "DM": "Sudheep - Data Mining",
+    "OS": "Lima - Operating System",
+    "NNDL": "Lino - Neural Networks and Deep Learning",
+    "OS Lab": "Lima - Operating System Lab",
+    "Mini Project": "Lino - Mini Project",
     "FREE": "Free"
   },
   "timetable": {
-    "Monday": ["CG", "AMM", "FREE", "FREE"],
-    "Tuesday": ["NSM", "OOSE-Sudheep", "SP", "FREE"],
-    "Wednesday": ["ML", "NSM", "MP LAB", "MP LAB"],
-    "Thursday": ["SP", "OOSE-Arun", "CG LAB", "CG LAB"],
-    "Friday": ["ML", "AMM", "CG", "FREE"]
-  }
+    "Monday": ["CC", "NNDL", "OS", "FREE"],
+    "Tuesday": ["CN", "DM", "ADA", "FREE"],
+    "Wednesday": ["NNDL", "CC", "FREE", "FREE"],
+    "Thursday": ["ADA", "CN", "OS Lab", "OS Lab"],
+    "Friday": ["OS", "DM", "Mini Project", "Mini Project"]
+  },
+  "syllabus": "https://drive.google.com/file/d/1K5CZIcvUdja4YZCy0-BRVkRjjgv4PED9/view?usp=sharing"
 }
