@@ -1,22 +1,32 @@
 {
   "meetLinks": {
-    "CN": "https://meet.google.com/txc-gvyo-ixp",
-    "CC": "",
-    "ADA": "https://meet.google.com/udt-abha-bga",
-    "DM": "",
-    "OS": "https://meet.google.com/xcg-wbzp-fhy",
-    "NNDL": "",
-    "OS LAB": "https://meet.google.com/mhu-gepw-tux",
-    "Mini Project": "",
+    "CN": "https://meet.google.com/txc-gvyo-ixp?authuser=1",
+    "CC": "https://meet.google.com/afu-zhfd-qhe?authuser=1",
+    "ADA": "https://meet.google.com/udt-abha-bga?authuser=1",
+    "DM": "https://meet.google.com/zzh-qubc-mya?authuser=1",
+    "OS": "https://meet.google.com/xcg-wbzp-fhy?authuser=1",
+    "NNDL": "https://meet.google.com/nwt-pqrk-xjk?authuser=1",
+    "OS LAB": "https://meet.google.com/mhu-gepw-tux?authuser=1",
+    "Mini Project": "https://meet.google.com/roy-xjes-imi?authuser=1",
     "FREE": "https://open.spotify.com/search"
+  },
+  "extraMeetLinks": {
+    "CN": "?authuser=1",
+    "CC": "https://meet.google.com/gwz-noeu-xne?authuser=1",
+    "ADA": "https://meet.google.com/ume-gjob-yvm?authuser=1",
+    "DM": "https://meet.google.com/aww-ansp-zbp?authuser=1",
+    "OS": "https://meet.google.com/gbt-ybop-qcj?authuser=1",
+    "NNDL": "?authuser=1",
+    "OS LAB": "?authuser=1",
+    "Mini Project": "?authuser=1"
   },
   "classroomLinks": {
     "CN": "https://classroom.google.com/u/1/c/NDYyODk4NTkzMDY3",
-    "CC": "",
+    "CC": "https://classroom.google.com/u/1/c/NDYzNjc4MzA2NDY0",
     "ADA": "https://classroom.google.com/u/1/c/NDU3OTc2MDE5MTY5",
-    "DM": "",
+    "DM": "https://classroom.google.com/u/1/c/NDY0MTQyMjMyODg1",
     "OS": "https://classroom.google.com/u/1/c/NDYyOTM1NzExNjAz",
-    "NNDL": "",
+    "NNDL": "https://classroom.google.com/u/1/c/NDYzMjc2MjU0ODI4",
     "OS LAB": "https://classroom.google.com/u/1/c/NDU4NTM0ODc3MDM4",
     "Mini Project": "https://classroom.google.com/u/1/c/NDYyOTMxODY5ODMz"
   },
