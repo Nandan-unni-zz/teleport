@@ -1,5 +1,9 @@
 const time = new Date();
 
+const errorLogger = (err, msg) => {
+  console.log(`[ERROR] @ ${msg}:`, err);
+};
+
 const isCurrentPeriod = (subIndex) => {
   const hour = time.getHours();
   const min = time.getMinutes();
@@ -35,7 +39,12 @@ const isCurrentPeriod = (subIndex) => {
 };
 
 const classroomBlock = (data, subCode) => `
-  <a class="nav" href="${data?.classroomLinks[subCode]}" rel="noopener noreferrer">
+  <a 
+    class="nav" 
+    href="${data?.classroomLinks[subCode]}" 
+    rel="noopener noreferrer"
+    target="_blank"
+  >
     <abbr title="${data?.desc[subCode]}">
       ${subCode}
     </abbr>
@@ -52,6 +61,7 @@ const subjectBlock = (data, day, dayIndex) => `
         class="block"
         href="${data?.meetLinks[subCode]}"
         rel="noopener noreferrer"
+        target="_blank"
       >
         <abbr class="${
           dayIndex === time.getDay() - 1 &&
@@ -66,45 +76,86 @@ const subjectBlock = (data, day, dayIndex) => `
   </section>
 `;
 
+const extraLinkBlock = (sub, extraLink) => `
+    <a
+    class="extraLink"
+    href="${extraLink}"
+    rel="noopener noreferrer"
+    target="_blank"
+    >
+      ${sub}
+    </a>
+`;
+
 const loadDataToHTML = async (semester) => {
   const data = await (
     await fetch(`/teleport/static/data/${semester}_timetable.json`)
   ).json();
 
-  document.getElementById("syllabus").onclick = () =>
-    window.open(data?.syllabus);
+  try {
+    document.getElementById("syllabus").onclick = () =>
+      window.open(data?.syllabus);
+  } catch (error) {
+    errorLogger(error, "loading syllabus in loadDataToHTML()");
+  }
 
-  document.getElementById("classrooms").innerHTML = Object.keys(
-    data?.classroomLinks
-  )
-    .map((subCode) => classroomBlock(data, subCode))
-    .reduce((a, b) => a + b);
+  try {
+    document.getElementById("classrooms").innerHTML = Object.keys(
+      data?.classroomLinks
+    )
+      .map((subCode) => classroomBlock(data, subCode))
+      .reduce((a, b) => a + b);
+  } catch (error) {
+    errorLogger(error, "loading classrooms in loadDataToHTML()");
+  }
 
-  document.getElementById("timetable").innerHTML = Object.keys(data?.timetable)
-    .map((day, dayIndex) => subjectBlock(data, day, dayIndex))
-    .reduce((a, b) => a + b);
+  try {
+    document.getElementById("timetable").innerHTML = Object.keys(
+      data?.timetable
+    )
+      ?.map((day, dayIndex) => subjectBlock(data, day, dayIndex))
+      ?.reduce((a, b) => a + b);
+  } catch (error) {
+    errorLogger(error, "loading timetable in loadDataToHTML()");
+  }
 
-  const timeStr = `${time.getDate()} ${
-    [
-      "Jan",
-      "Feb",
-      "Mar",
-      "Apr",
-      "May",
-      "Jun",
-      "Jul",
-      "Aug",
-      "Sep",
-      "Oct",
-      "Nov",
-      "Dec",
-    ][time.getMonth()]
-  } ${time.getFullYear()} &nbsp; <span> ● </span> &nbsp; ${
-    time.getHours() < 10 ? "0" + time.getHours() : time.getHours()
-  }: ${
-    time.getMinutes() < 10 ? "0" + time.getMinutes() : time.getMinutes()
-  } &nbsp; <span> ● </span> &nbsp; ${
-    ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][time.getDay()]
-  }`;
-  document.getElementById("time").innerHTML = timeStr;
+  try {
+    document.getElementById("extraLinks").innerHTML =
+      `<p>Extra Links</p>` +
+      Object.keys(data?.extraMeetLinks)
+        .map((subCode) =>
+          extraLinkBlock(subCode, data?.extraMeetLinks[subCode])
+        )
+        .reduce((a, b) => a + b);
+  } catch (error) {
+    errorLogger(error, "loading extraLinks in loadDataToHTML()");
+  }
+
+  try {
+    const timeStr = `${time.getDate()} ${
+      [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+      ][time.getMonth()]
+    } ${time.getFullYear()} &nbsp; <span> ● </span> &nbsp; ${
+      time.getHours() < 10 ? "0" + time.getHours() : time.getHours()
+    }: ${
+      time.getMinutes() < 10 ? "0" + time.getMinutes() : time.getMinutes()
+    } &nbsp; <span> ● </span> &nbsp; ${
+      ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][time.getDay()]
+    }`;
+    document.getElementById("time").innerHTML = timeStr;
+  } catch (error) {
+    errorLogger(error, "loading time in loadDataToHTML()");
+  }
 };

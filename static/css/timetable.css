@@ -45,15 +45,18 @@ body {
 
 .timeContainer {
   display: flex;
-  width: 100%;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
+  width: 100%;
+  padding: 0 100px;
   margin-top: 60px;
   margin-bottom: 30px;
 }
 time#time,
 a#syllabus {
   padding: 10px 15px;
+  margin: 0 15px;
   background-color: #1e1e1e;
   border-radius: 5px;
 }
@@ -66,8 +69,8 @@ a#syllabus {
   display: flex;
   align-items: center;
   width: fit-content;
-  margin: auto;
-  margin-top: 60px;
+  /* margin: auto; */
+  /* margin-top: 20px; */
   cursor: pointer;
   padding: 10px 25px;
 }
@@ -82,29 +85,36 @@ a#syllabus span {
   justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
-#timetable .day {
+#timetable .day,
+#extraLinks {
   display: flex;
   flex-direction: column;
   background-color: #414141;
   margin: 10px 65px;
 }
-#timetable .day .block {
+#timetable .day .block,
+#extraLinks a,
+#extraLinks p {
   padding: 10px 40px;
   min-width: 220px;
   text-align: center;
 }
-#timetable .day p {
+#timetable .day p,
+#extraLinks p {
   color: dodgerblue;
   border-bottom: 3px solid #414141;
   font-weight: 600;
   font-size: 18px;
 }
 
-#timetable .day a {
+#timetable .day a,
+#extraLinks a {
   border-bottom: 1px solid #414141;
 }
-#timetable .day a abbr {
+#timetable .day a abbr,
+#extraLinks a {
   font-size: 16px;
   color: #cccccc;
   transition: all ease-in-out 0.2s;
@@ -114,7 +124,8 @@ a#syllabus span {
   font-weight: 600;
   text-shadow: 1px 1px 10px rgb(200, 0, 0);
 }
-#timetable .day a:hover abbr {
+#timetable .day a:hover abbr,
+#extraLinks a:hover {
   color: white;
   font-weight: 600;
 }
@@ -122,7 +133,29 @@ a#syllabus span {
   color: tomato;
   font-weight: 900;
 }
-
+#extraLinks {
+  width: fit-content;
+  margin: auto;
+  margin-top: 60px;
+}
+/* 
+#extraLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#extraLinks .extraLink {
+  margin-top: 60px;
+  padding: 5px 25px;
+  border-left: 3px solid #414141;
+}
+#extraLinks .extraLink:last-child {
+  border-right: 3px solid #414141;
+}
+#extraLinks .extraLink:hover {
+  color: white;
+  font-weight: 600;
+} */
 /* #syllabus {
   padding: 10px 15px;
   background-color: #1e1e1e;
@@ -149,8 +182,14 @@ footer.copy {
 }
 @media only screen and (max-width: 650px) {
   .timeContainer {
+    flex-direction: column;
     margin-top: 40px;
     margin-bottom: 20px;
+  }
+
+  time#time,
+  a#syllabus {
+    margin: 15px 0;
   }
   #classrooms .nav {
     padding: 0 20px;

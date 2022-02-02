@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="../static/css/timetable.css" rel="stylesheet" />
     <title>S5 TimeTable</title>
+    <script
+      src="../static/components/TimeTable.js"
+      type="text/javaScript"
+      defer
+    ></script>
   </head>
   <body>
-    <main>
-      <menu id="classrooms"></menu>
-      <div class="timeContainer"><time id="time"></time></div>
-      <div id="timetable"></div>
-      <a id="syllabus">Open Syllabus <span>&#10140;</span></a>
-      <footer class="copy">2021 &copy; Nandanunni</footer>
-    </main>
+    <time-table></time-table>
     <script src="../static/js/timetable.js"></script>
     <script>
       loadDataToHTML("S5");

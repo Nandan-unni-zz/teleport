@@ -11,6 +11,9 @@
     "MP LAB": "https://meet.google.com/lookup/fwbd3nrxvl?authuser=1",
     "FREE": "https://open.spotify.com/search"
   },
+  "extraMeetLinks": {
+    "FREE": "https://music.youtube.com"
+  },
   "classroomLinks": {
     "ML": "https://classroom.google.com/u/1/c/Mzc5MTcyMTYyNDg2",
     "SP": "https://classroom.google.com/u/1/c/Mzc5NzY0MzI5NzA2",

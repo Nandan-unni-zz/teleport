@@ -11,14 +11,11 @@
     "FREE": "https://open.spotify.com/search"
   },
   "extraMeetLinks": {
-    "CN": "?authuser=1",
     "CC": "https://meet.google.com/gwz-noeu-xne?authuser=1",
     "ADA": "https://meet.google.com/ume-gjob-yvm?authuser=1",
     "DM": "https://meet.google.com/aww-ansp-zbp?authuser=1",
     "OS": "https://meet.google.com/gbt-ybop-qcj?authuser=1",
-    "NNDL": "?authuser=1",
-    "OS LAB": "?authuser=1",
-    "Mini Project": "?authuser=1"
+    "FREE": "https://music.youtube.com"
   },
   "classroomLinks": {
     "CN": "https://classroom.google.com/u/1/c/NDYyODk4NTkzMDY3",
